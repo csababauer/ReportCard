@@ -1,20 +1,11 @@
 package com.example.android.reportcard;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by Csaba on 13/05/2017.
+ */
 
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
-    }
-
-    public class ReportCard {
+public class ReportCard {
         private int makeID;
         public String makestudentName;
         private String makesubject;
@@ -77,5 +68,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-  }
+
 
